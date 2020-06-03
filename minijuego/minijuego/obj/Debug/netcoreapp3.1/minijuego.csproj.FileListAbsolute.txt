@@ -11,3 +11,16 @@ C:\taller y lenguaje\Nueva carpeta\minijuego\minijuego\bin\Debug\netcoreapp3.1\m
 C:\taller y lenguaje\Nueva carpeta\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.dll
 C:\taller y lenguaje\Nueva carpeta\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.pdb
 C:\taller y lenguaje\Nueva carpeta\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.genruntimeconfig.cache
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\bin\Debug\netcoreapp3.1\minijuego.exe
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\bin\Debug\netcoreapp3.1\minijuego.deps.json
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\bin\Debug\netcoreapp3.1\minijuego.runtimeconfig.json
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\bin\Debug\netcoreapp3.1\minijuego.runtimeconfig.dev.json
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\bin\Debug\netcoreapp3.1\minijuego.dll
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\bin\Debug\netcoreapp3.1\minijuego.pdb
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.csprojAssemblyReference.cache
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.csproj.CoreCompileInputs.cache
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.AssemblyInfoInputs.cache
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.AssemblyInfo.cs
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.dll
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.pdb
+C:\taller y lenguaje\practica2\control-de-progresos-2-leosvece\minijuego\minijuego\obj\Debug\netcoreapp3.1\minijuego.genruntimeconfig.cache

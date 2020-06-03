@@ -43,43 +43,45 @@ namespace minijuego
         public int Armadura { get => armadura; set => armadura = value; }
         public TipoPer Tipo { get => tipo; set => tipo = value; }
 
-        public Per CrearPj()
+        public Per CrearPj( Per pj)
         {
-            Per pj = new Per();
-            pj.Armadura = aleatorio.Next(10);
-            pj.Destreza = aleatorio.Next(5);
-            pj.Fuerza = aleatorio.Next(10);
-            pj.Velocidad = aleatorio.Next(10);
-            pj.Nivel = aleatorio.Next(10);
+            //Per pj = new Per();
+            Armadura = aleatorio.Next(1,10);
+            Destreza = aleatorio.Next(1,5);
+            Fuerza = aleatorio.Next(1,10);
+            Velocidad = aleatorio.Next(1,10);
+            Nivel = aleatorio.Next(1,10);
 
             Console.WriteLine("nombre");
-            pj.Nombre = Console.ReadLine();
+            Nombre = Console.ReadLine();
             Console.WriteLine("apodo");
-            pj.Apodo = Console.ReadLine();
+            Apodo = Console.ReadLine();
 
-            pj.Fecha = new DateTime(DateTime.Now.Year - aleatorio.Next(300), DateTime.Now.Month, DateTime.Now.Day);
-            pj.Edad = DateTime.Now.Year - pj.Fecha.Year;
+            Fecha = new DateTime(DateTime.Now.Year - aleatorio.Next(16,300), DateTime.Now.Month, DateTime.Now.Day);
+            Edad = DateTime.Now.Year - Fecha.Year;
 
 
             Array values = Enum.GetValues(typeof(TipoPer));
 
-            pj.Tipo = (TipoPer)values.GetValue(aleatorio.Next(values.Length));
+            Tipo = (TipoPer)values.GetValue(aleatorio.Next(values.Length));
 
             return pj;
         }
 
         public void Mostrar()
         {
-            Console.WriteLine(Nivel);
-            Console.WriteLine(armadura);
-            Console.WriteLine(destreza);
-            Console.WriteLine(velocidad);
-            Console.WriteLine(fuerza);
+            Console.WriteLine("Nivel: " + Nivel);
+            Console.WriteLine("Armadura: " + armadura);
+            Console.WriteLine("Destresa: " + destreza);
+            Console.WriteLine("velocidad: " + velocidad);
+            Console.WriteLine("Fuerza: " + fuerza);
 
-            Console.WriteLine(Nombre);
-            Console.WriteLine(Apodo);
-            Console.WriteLine(edad);
-            Console.WriteLine(Salud);
+            Console.WriteLine("Nombre: " + Nombre);
+            Console.WriteLine("Apellido: " + Apodo);
+            Console.WriteLine("tipo: " + Tipo);
+            Console.WriteLine("Edad: " + edad);
+            Console.WriteLine("Salud: " + Salud);
+
         }
 
 

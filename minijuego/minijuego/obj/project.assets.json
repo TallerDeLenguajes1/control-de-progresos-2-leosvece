@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\taller y lenguaje\\Nueva carpeta\\minijuego\\minijuego\\minijuego.csproj",
+      "projectUniqueName": "C:\\taller y lenguaje\\practica2\\control-de-progresos-2-leosvece\\minijuego\\minijuego\\minijuego.csproj",
       "projectName": "minijuego",
-      "projectPath": "C:\\taller y lenguaje\\Nueva carpeta\\minijuego\\minijuego\\minijuego.csproj",
+      "projectPath": "C:\\taller y lenguaje\\practica2\\control-de-progresos-2-leosvece\\minijuego\\minijuego\\minijuego.csproj",
       "packagesPath": "C:\\Users\\progr\\.nuget\\packages\\",
-      "outputPath": "C:\\taller y lenguaje\\Nueva carpeta\\minijuego\\minijuego\\obj\\",
+      "outputPath": "C:\\taller y lenguaje\\practica2\\control-de-progresos-2-leosvece\\minijuego\\minijuego\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\progr\\AppData\\Roaming\\NuGet\\NuGet.Config",
