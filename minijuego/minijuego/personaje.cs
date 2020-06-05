@@ -43,19 +43,17 @@ namespace minijuego
         public int Armadura { get => armadura; set => armadura = value; }
         public TipoPer Tipo { get => tipo; set => tipo = value; }
 
-        public Per CrearPj( Per pj)
+        public void CrearPj(string nom, string apd)
         {
-            //Per pj = new Per();
             Armadura = aleatorio.Next(1,10);
             Destreza = aleatorio.Next(1,5);
             Fuerza = aleatorio.Next(1,10);
             Velocidad = aleatorio.Next(1,10);
             Nivel = aleatorio.Next(1,10);
 
-            Console.WriteLine("nombre");
-            Nombre = Console.ReadLine();
-            Console.WriteLine("apodo");
-            Apodo = Console.ReadLine();
+            Nombre = nom;
+
+            Apodo = apd;
 
             Fecha = new DateTime(DateTime.Now.Year - aleatorio.Next(16,300), DateTime.Now.Month, DateTime.Now.Day);
             Edad = DateTime.Now.Year - Fecha.Year;
@@ -64,28 +62,37 @@ namespace minijuego
             Array values = Enum.GetValues(typeof(TipoPer));
 
             Tipo = (TipoPer)values.GetValue(aleatorio.Next(values.Length));
-
-            return pj;
         }
 
-        public void Mostrar()
+        public string MostrarDatos()
         {
-            Console.WriteLine("Nivel: " + Nivel);
-            Console.WriteLine("Armadura: " + armadura);
-            Console.WriteLine("Destresa: " + destreza);
-            Console.WriteLine("velocidad: " + velocidad);
-            Console.WriteLine("Fuerza: " + fuerza);
+            string dato;
 
-            Console.WriteLine("Nombre: " + Nombre);
-            Console.WriteLine("Apellido: " + Apodo);
-            Console.WriteLine("tipo: " + Tipo);
-            Console.WriteLine("Edad: " + edad);
-            Console.WriteLine("Salud: " + Salud);
+            dato = "Nombre: " + Nombre + "\n";
+            dato += "Apodo: " + Apodo + "\n";
+            dato += "tipo: " + Tipo + "\n";
+            dato += "Edad: " + edad + "\n";
+            dato += "Salud: " + Salud + "\n";
 
+            return dato;
+        }
+
+        public string MostrarCaracteriscicas()
+        {
+            string caracteristicas;
+
+            caracteristicas = "Nivel: " + Nivel + "\n";
+            caracteristicas += "Armadura: " + armadura + "\n";
+            caracteristicas += "Destresa: " + destreza + "\n";
+            caracteristicas += "velocidad: " + velocidad + "\n";
+            caracteristicas += "Fuerza: " + fuerza + "\n";
+
+            return caracteristicas;
         }
 
 
     }
+
 
     
  }
